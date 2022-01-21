@@ -16,10 +16,5 @@ repositories {
 
 dependencies {
     api(kotlin("stdlib-js"))
-    api("org.jetbrains.kotlin-wrappers:kotlin-react:17.0.2-pre.217-kotlin-1.5.21")
-    api("org.jetbrains.kotlin-wrappers:kotlin-react-dom:17.0.2-pre.217-kotlin-1.5.21")
-    api(npm("react", "17.0.2"))
-    api(npm("react-dom", "17.0.2"))
-
-    api(npm("react-bootstrap", "1.6.1"))
+    api("org.jetbrains.kotlinx:kotlinx-coroutines-core-js:1.6.0")
 }
