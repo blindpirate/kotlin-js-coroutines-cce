@@ -1,4 +1,4 @@
-# Reproducer for Kotlin JS ClassCastException when calling a suspend function
+# Reproducer for https://youtrack.jetbrains.com/issue/KT-50890
 
 Steps to reproduce:
 
